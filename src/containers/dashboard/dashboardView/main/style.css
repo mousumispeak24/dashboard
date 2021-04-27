@@ -133,15 +133,13 @@
   color: #FFFFFF;
 }
 .midesection{
-  font-family: "Averta";
+  color: #272835;
   font-size: 20px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 30px;
   letter-spacing: -0.06em;
   text-align: left;
-  color: #272835;
-
 }
 .socialsiteMain{
   /* background: #895FE0 !important; */
