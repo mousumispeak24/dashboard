@@ -23,7 +23,6 @@ const Donut: React.SFC<> = () => {
         marginLeft="30%"
         display="flex"
         alignItems="center"
-        // justifyContent="center"
         flexDirection="coloum"
       >
         <Typography variant="caption" 

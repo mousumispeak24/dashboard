@@ -65,6 +65,7 @@
 .lastCard{
   background: linear-gradient(131.58deg, #FA93D2 1.34%, #895FE0 103.94%);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 15px 0px !important;
+  border-radius: 20px !important;
 }
 .lastCardDiv{
   margin: 0;
@@ -103,6 +104,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  border-radius: 20px !important;
 }
 .yourPlanCommon{
   font-family: "Averta";
@@ -382,4 +384,8 @@
   font-weight: 400;
   line-height: 14px;
   text-align: right;
+}
+.latestUpdateMain{
+  background:'#FFF4F2 !important';
+  border-radius: 20px !important;
 }

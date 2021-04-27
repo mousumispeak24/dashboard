@@ -23,9 +23,13 @@
 
 .list-item span {
   color: white;
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
+  font-family: "DM Sans";
   font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+
 }
 
 .list-item img {
@@ -44,15 +48,18 @@
 
 .active-list-item span {
   color: white;
-  font-size: 16px;
-  font-weight: 500;
+  font-family:" DM Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
 }
 .teamDiv{
   margin-top: 10px;
   font-weight: 700;
   font-size: 12px;
   color: white;
-  margin-bottom: 10px;
   margin-left: 20px;
 }
 .sideNaveImages{
@@ -83,12 +90,17 @@
 }
 .upgradeText{
   color: #FFFFFF;
-  font-weight: 500;
-  font-size: 12px;
-  text-align: center;
   Width:154px;
   Height :44px;
   margin-left: 21%;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.4000000059604645px;
+  text-align: center;
+
 }
 .updateButtondiv{
   border-radius: 16px;
@@ -107,6 +119,8 @@
   letter-spacing: -0.20000000298023224px;
   text-align: center;
   color: #323484 !important;
-
-
+}
+.messageBadge{
+  padding: 5px 90px 0px 10px;
+  margin-top: 8%;
 }

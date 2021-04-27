@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import "./sideMenu.css";
 import ListItem from "@material-ui/core/ListItem";
@@ -14,12 +14,11 @@ import sales from "../../assets/icons/sales.png";
 import calender from "../../assets/icons/calender.png";
 import more from "../../assets/icons/more.png";
 import barChatIcon from "../../assets/icons/barChatIcon.png";
-
+import Badge from '@material-ui/core/Badge';
 import { Button } from "@material-ui/core";
 
 
 const SideMenu = () => {
-  const dispatch = useDispatch();
   const { sideMenuList, sideMenuTeamList } = useSelector((state) => state.dash);
   //hooks......
   const [selectedSideNav, setSelectedSideNav] = useState("Patient");
@@ -96,6 +95,8 @@ const SideMenu = () => {
                 alt="close-icon"
               />
             <ListItemText primary={sidemenu.displayName} />
+           {index=== 0 && <Badge badgeContent={6} color="secondary" className="messageBadge"></Badge> }
+
             </div>
           </ListItem>
         );

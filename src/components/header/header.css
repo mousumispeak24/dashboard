@@ -4,20 +4,26 @@
   margin: 0;
   padding: 0;
   padding: 2px 0px;
-  margin-top: 1%;
+  margin-top: 2%;
   overflow: hidden;
   right: 0;
   left: 0;
+  margin-bottom: 2%;
 }
 .page-heading {
   float: left;
   margin-top: 1px;
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  font-weight: 500;
   margin-bottom: 0;
   color:#272835 !important;
   margin-top: -1.5%;
+  font-family: "Averta";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 43px;
+  letter-spacing: -0.06em;
+  text-align: left;
+
 }
 .float-right {
   float: right;
@@ -39,8 +45,14 @@
   margin-top: 1px;
 }
 .subHeader{
-  font-weight: 400;
+  font-family: Averta;
   font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  
   color: #8F92A1;
 }
 .headerIcons{

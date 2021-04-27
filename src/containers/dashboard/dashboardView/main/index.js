@@ -48,7 +48,7 @@ const DahboardMainContainer = (props) => {
               <React.Fragment>
                 {/* //LATEST UPDATE.............. */}
                 <Grid item xs={4}>
-                <Paper className={classes.paper} style={{background:'#FFF4F2'}}>
+                <Paper className={[classes.paper,"latestUpdateMain"]} style={{background:'#FFF4F2'}}>
                   <div className="afterSideItemDivForLatestUpdare">
                     <img className="iconsquImage"  src={steam} alt="close-icon" />
                     <img className="iconCupPlateImage"  src={cup} alt="close-icon" />
