@@ -5,9 +5,9 @@ import {
   Route,
   Redirect,
 } from "react-router-dom";
-
 import DahboardMainContainer from "../dashboard/dashboardView/main";
-import DahboardSubContainer from "../dashboard/dashboardView/sub"
+import DahboardSubContainer from "../dashboard/dashboardView/sub";
+
 const RootContainer = () => {
 
   return (

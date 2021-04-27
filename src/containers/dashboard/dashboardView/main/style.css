@@ -81,7 +81,6 @@
   letter-spacing: 0px;
   text-align: center;
   color: #FFFFFF;
-
 }
 .lastCardtext1{
   line-height: 14px;
@@ -141,9 +140,6 @@
   letter-spacing: -0.06em;
   text-align: left;
 }
-.socialsiteMain{
-  /* background: #895FE0 !important; */
-}
 .MuiPaper-elevation1{
   box-shadow: none !important;
 }
@@ -174,7 +170,6 @@
   text-align: right !important;
   margin-left: 20%;
 }
-
 .commonForSocial{
   text-align: center;
   position: relative; 
@@ -233,7 +228,6 @@
   display: flex;
   text-align: right;
   margin-top: -45%;
-  /* justify-content: flex-end; */
   margin-left: 45%;
 }
 .addIconForYours{
@@ -248,7 +242,6 @@
 }
 .circularDiv{
   margin-top: 20%;
-  
 }
 .afterSideItemDivForGraph{
   text-align: center;

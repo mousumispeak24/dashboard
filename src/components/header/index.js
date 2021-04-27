@@ -1,5 +1,4 @@
 import React, { useState, } from "react";
-import { useDispatch, useSelector } from "react-redux";
 import "./header.css";
 import Grid from "@material-ui/core/Grid";
 import Menu from "@material-ui/core/Menu";

@@ -13,7 +13,6 @@ import printstr from "../../../../assets/icons/printstr.png";
 import twiter from "../../../../assets/icons/twiter.png";
 import orangeChart from "../../../../assets/icons/orangeChart.png";
 import blueChart from "../../../../assets/icons/blueChart.png";
-import circle from "../../../../assets/icons/circle.png";
 import playButton from "../../../../assets/icons/playButton.png";
 import playButtonback from "../../../../assets/icons/playButtonback.png";
 import barChat from "../../../../assets/icons/barChat.png";
