@@ -1,0 +1,79 @@
+.header {
+  background-color: #ffffff;
+  z-index: 5;
+  margin: 0;
+  padding: 0;
+  padding: 2px 0px;
+  margin-top: 1%;
+  overflow: hidden;
+  right: 0;
+  left: 0;
+}
+.page-heading {
+  float: left;
+  margin-top: 1px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 0;
+  color:#272835 !important;
+  margin-top: -1.5%;
+}
+.float-right {
+  float: right;
+}
+.margin-left-5,
+.margin-left-5px {
+  margin-left: 5px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.margin-right-15,
+.margin-right-15px .margin-top-0px {
+  margin-right: 15px;
+  margin-top: 0px;
+}
+.margin-top-1px {
+  margin-top: 1px;
+}
+.subHeader{
+  font-weight: 400;
+  font-size: 15px;
+  color: #8F92A1;
+}
+.headerIcons{
+flex-direction: row;
+margin-left: 10px;
+margin-right: 40px;
+}
+.iconsquImage{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.iconbellImage{
+  margin-left: 40px;
+  margin-right: 10px;
+}
+
+.notification {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+.notification:hover {
+  background: #3D41D7;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: 1px;
+  padding: 0px 5px;
+  border-radius: 50%;
+  background-color: #3D41D7;
+  color: white;
+}

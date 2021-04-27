@@ -1,0 +1,112 @@
+.sidemenu-top-logo-holder {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.root-slide-bar {
+  width: 250px;
+  float: left;
+  overflow: hidden;
+}
+
+.list-item {
+  cursor: pointer;
+  padding-top: 10px !important;
+  padding-bottom: 15px !important;
+  border-right: 5px solid transparent;
+  margin-bottom: -10px;
+}
+
+.list-item span {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.list-item img {
+  height: 20px;
+  width: 20px;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+.active-list-item {
+  border-left: 20px;
+  background-color: #3D41D7;
+  border-left: 3px solid #FFFFFF ;
+  margin-bottom: -10px;
+}
+
+.active-list-item span {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+.teamDiv{
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 12px;
+  color: white;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.sideNaveImages{
+  flex-direction: row;
+  display: flex;
+}
+.iconImage{
+  margin-top: 5%;
+}
+.afterSideItemDiv{
+  text-align: center;
+  position: relative; 
+  left: 0; 
+  top: 0;
+}
+.afterSideItemDiv2{
+  text-align: center;
+}
+.iconsquImage{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.iconarrowImage{
+  position: absolute;
+  top: 12px;
+  left: 48%;
+}
+.upgradeText{
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  Width:154px;
+  Height :44px;
+  margin-left: 21%;
+}
+.updateButtondiv{
+  border-radius: 16px;
+  text-align: center;
+  background: #FFFFFF;
+  height: 6%;
+  width: 60%;
+  margin-left: 20%;
+}
+.updateButton{
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: 20px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: center;
+  color: #323484 !important;
+
+
+}

@@ -1,0 +1,385 @@
+.main-container {
+  margin-left: 25%;
+  margin-right: 10px;
+  margin-bottom: 75px;
+}
+.bullet {
+  display: 'inline-block';
+  margin: '0 2px';
+  transform: 'scale(0.8)';
+}
+.title {
+  font-size: 14;
+}
+.pos {
+  margin-bottom: 12;
+}
+.iconCupPlateImage{
+  position: absolute;
+  top: -8px;
+  left: 48%;
+  margin-left: -26%;
+}
+.afterSideItemDivForLatestUpdare{
+  text-align: center;
+  position: relative; 
+  left: 0; 
+  top: 0;
+  border-radius: 20px;
+  background: #7CDDD9;
+  margin: 10px;
+}
+.latestUpdateSubTeaxt{
+  flex-direction: row;
+  display: flex;
+}
+.subText{
+  color: #000000;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Averta";
+  font-style: normal;
+  text-align: left;
+}
+.insidesubDiv{
+  margin-top: 0%;
+  overflow: hidden;
+}
+.addIcon{
+  margin-top: 5%;
+  margin-left: 25%;
+  background: #3D41D7;
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 15px 0px !important;
+  border-radius: 10px;
+  height: 40px;
+  width: 40px;
+}
+.addIconDiv{
+  margin-top: 5%;
+  margin-left: 30%;
+  background: #3D41D7;
+  border-radius: 10px;
+  height: 40px;
+  width: 40px;
+}
+.lastCard{
+  background: linear-gradient(131.58deg, #FA93D2 1.34%, #895FE0 103.94%);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 15px 0px !important;
+}
+.lastCardDiv{
+  margin: 0;
+  position: relative;
+  top: 43%;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%)
+}
+.common{
+  font-family:" DM Sans";
+  font-style: normal;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+.lastCardtext1{
+  line-height: 14px;
+  font-weight: 400;
+  font-size: 17px;
+}
+.lastCardtext2{
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 13.93px;
+}
+.lastCardtext3{
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 14px;
+}
+.imageBackground{
+  background-image: url("../../../../assets/icons/backgroundImage.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.yourPlanCommon{
+  font-family: "Averta";
+  font-style: normal;
+  letter-spacing: -0.06em;
+  text-align: left;
+}
+.yourPlanText1{
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-bottom: -3%;
+}
+.yourPlanText2{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-bottom: -10%;
+}
+.yourPlanText3{
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+.midesection{
+  font-family: "Averta";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: -0.06em;
+  text-align: left;
+  color: #272835;
+
+}
+.socialsiteMain{
+  /* background: #895FE0 !important; */
+}
+.MuiPaper-elevation1{
+  box-shadow: none !important;
+}
+.socialSitesHeader{
+  display: flex;
+  flex-direction: row;
+}
+.brandAdditionsdiv{
+  border-radius: 16px;
+  background: #F6FAFF;
+  height: 10%;
+  width: 52%;
+  border: 1px solid #B3B6DA;
+}
+.socialSiteCommon{
+  font-family: "Averta";
+  font-size: 10px !important;
+  font-style: normal;
+  font-weight: 600 !important;
+  line-height: 12px;
+  letter-spacing: -0.06em;
+  color: #8F92A1 !important;
+}
+.brandAdditions{
+  text-align: left;
+}
+.upcomingtasks{
+  text-align: right !important;
+  margin-left: 20%;
+}
+
+.commonForSocial{
+  text-align: center;
+  position: relative; 
+  left: 0; 
+  top: 0;
+  margin: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+.socialMediaName{
+  font-family: "Averta";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.06em;
+  text-align: left;
+  color: #272835;
+  margin-bottom: -27%;
+  margin-top: 3%;
+}
+.socialMediacompany{
+  font-family: Averta;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: -0.06em;
+  text-align: left;
+  color:#8F92A1;
+}
+.mediadiv{
+  margin-left: 2%;
+}
+.commonMediaIs {
+  text-align: right !important;
+  margin-left: 31%;
+  font-family: "Averta";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 19px;
+  letter-spacing: -0.06em;
+}
+.twiterNumber{
+  color:  #016F42;
+}
+.tprintstrNumber{
+  color:  #FF0000;
+}
+.linkdinNumber{
+  color:  #6B46FF;
+}
+.yourPlanebuttoneImage{
+  display: flex;
+  text-align: right;
+  margin-top: -45%;
+  /* justify-content: flex-end; */
+  margin-left: 45%;
+}
+.addIconForYours{
+  background: #3D41D7;
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 15px 0px !important;
+  border-radius: 10px;
+  height: 40px;
+  width: 40px;
+  margin-top: 32%;
+  margin-left: -77%;
+  text-align: center;
+}
+.circularDiv{
+  margin-top: 20%;
+  
+}
+.afterSideItemDivForGraph{
+  text-align: center;
+  position: relative; 
+  left: 0; 
+  top: 0;
+  border-radius: 20px;
+  background: #F6F8FF;
+  margin-top: -3%;
+  margin-bottom: 2%;  
+  width: 100%;
+}
+.afterSideItemDivForGraph2{
+  text-align: center;
+  position: relative; 
+  left: 0; 
+  top: 0;
+  border-radius: 20px;
+  background: #F6F8FF;
+}
+.afterSideItemDivForGraph3{
+  text-align: center;
+  position: relative; 
+  left: 0; 
+  top: 0;
+  border-radius: 20px;
+  background: #3D41D7;
+  margin-left: 8%;
+  width: 45%;
+}
+.iconblueChartImage{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 77%;
+}
+.iconorangeChartImage{
+  position: absolute;
+  top: -8px;
+  width: 105%;
+  margin-left: -91%;
+}
+.graphText{
+  display: flex;
+  flex-direction: row;
+}
+.graphAmmountcommon{
+  font-family: "DM Sans";
+  font-style: normal;
+  text-align: left;
+}
+.graphAmmount{
+  color: #272835;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0px;
+  margin-bottom: -12%;
+}
+.graphAmmountText{
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 9px;
+  letter-spacing: -0.18571428954601288px;
+}
+.graphAmmountColor{
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  text-align: right;
+  color: #00875A;
+  margin-bottom: -12%;
+}
+.graphSecondRow{
+  display: flex;
+  flex-direction: row;
+}
+.iconplayButtonbackImage{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.iconplayButtonImage{
+  position: absolute;
+  margin-top: 30%;
+  margin-left: -53%;
+}
+.playbuttontextCommon{
+  font-family: "DM Sans";
+  text-align: center;
+  font-style: normal;
+
+}
+.playbuttontext{
+  margin-top: -38%;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0px;
+  color: #272835;
+  margin-bottom: 2%;
+}
+.playbuttontext2{
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 9px;
+  color: #8F92A1;
+}
+.iconbarChatImage{
+  position: absolute;
+  margin-top: 22%;
+  margin-left: -10%;
+}
+.barCharttext{
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0px;
+  color:#FFFFFF;
+  margin-top: 60%;
+  margin-bottom: 4%;
+}
+.barCharttext2{
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 9px;
+  color:#FFFFFF;
+}
+.lastCardtext4{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: right;
+}
